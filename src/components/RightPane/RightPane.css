@@ -1,0 +1,7 @@
+.rightPane {
+  flex: 1;
+  background-color: white;
+  margin-left: 10px;
+  height: calc(20px * 24);
+  padding: 1rem;
+}

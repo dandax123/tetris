@@ -1,0 +1,13 @@
+.leftPane {
+  background-color: white;
+  width: calc(20px * 26);
+  height: calc(20px * 24);
+  display: flex;
+  flex-flow: row wrap;
+}
+.gridBox {
+  width: 20px;
+  height: 20px;
+  background-color: #f2f2f2f2;
+  outline: 1px dashed gainsboro;
+}

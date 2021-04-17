@@ -1,7 +1,15 @@
 import React from "react";
+import "./App.css";
+import LeftPane from "./components/LeftPane/LeftPane";
+import RightPane from "./components/RightPane/RightPane";
 
 const App = () => {
-  return <div>Hello tetris</div>;
+  return (
+    <div className="App">
+      <LeftPane />
+      <RightPane />
+    </div>
+  );
 };
 
 export default App;
