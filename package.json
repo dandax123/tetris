@@ -1,0 +1,31 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "npm run tauri dev",
+    "start": "react-scripts start",
+    "build:ui": "react-scripts build",
+    "build": "yarn build:ui && tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/cli": "^1.0.0-beta-rc.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
