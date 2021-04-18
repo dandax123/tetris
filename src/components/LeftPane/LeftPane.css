@@ -1,7 +1,5 @@
 .leftPane {
   background-color: white;
-  width: calc(20px * 26);
-  height: calc(20px * 24);
   display: flex;
   flex-flow: row wrap;
 }
@@ -9,5 +7,30 @@
   width: 20px;
   height: 20px;
   background-color: #f2f2f2f2;
-  outline: 1px dashed gainsboro;
+  outline: 1px dashed black;
+}
+
+.b0 {
+  background-color: #f2f2f2f2;
+}
+.b1 {
+  background-color: green;
+}
+.b2 {
+  background-color: yellow;
+}
+.b3 {
+  background-color: indigo;
+}
+.b4 {
+  background-color: orange;
+}
+.b5 {
+  background-color: violet;
+}
+.b6 {
+  background-color: red;
+}
+.b7 {
+  background-color: blue;
 }
